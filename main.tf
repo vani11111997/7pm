@@ -8,7 +8,7 @@ resource "aws_instance" "example" {
   ami           = "ami-0e6329e222e662a52"
   instance_type = "t2.micro"
   key_name = "vanikops"
-  avaliabilty_zone = "ap-south-1b"
+  availabilty_zone = "ap-south-1a"
   tags= {
     Name = "vani terraform"
   }
